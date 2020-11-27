@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+	box-sizing: border-box;
+	font-family: 'Domine', serif;
+	}
+	.container{
+	max-width: 80%;
+	/background-color: rgb(198, 152, 241);/
+	padding: 34 px;
+	  margin: auto; 
+	  font-family: 'Lobster Two', cursive;
+}
+h1{
+	text-align: center;
+}
+.container h1,p{
+	text-align: center;
+	font-size: 20px;
+}
+.container h1{
+	font-size: 60px;
+}
+.container p{
+	color: red;
+	font-family: 'Lobster Two', cursive;
+	background-color: yellow;
+}
+input,textarea{
+	display: block;
+	border:2px solid black;
+	border-radius: 6px;
+	/outline: none;/
+	width: 80%;
+	margin:11px 13px;
+	font-size: 16px;
+	padding: 7px;
+}
+.btn{
+	/margin-left: 13px;/
+	color:white;
+	background:purple;
+	padding:8px 12px;
+	font-size: 20px;
+	border:2px solid white;
+	border-radius: 14px;
+	cursor:pointer;
+}
+.btn:hover{
+	opacity: 0.6;
+}
+
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.bg{
+	width: 100%;
+	position: absolute;
+	 z-index: -1;
+	 height: 140%;
+	 /opacity:0.9;/
+}
+p.submitMsg{
+	background-color: red;
+	color: black;
+}
+
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
+tr:nth-child(even) {
+	background: #CDBB79;
+}
+.cal caption{
+	text-transform: uppercase;
+	background-color: green;
+	color:#ffffff;
+	font-size: 150%;
+	
+}
+.cal th, .cal td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+th{
+	text-align: center;
+	background: #FFFFFF;
+
+}
+
+/Set the size and alignment for elements/
+.cal td{
+	width:75px;
+	height:100%;
+	vertical-align:top;
+
+}
+table{
+	color:#06425C;
+	border-spacing: 0;
+	border: 3px solid black;
+	
+	height:100%;
+}
+#istyle {
+	font-family: 'Sansita Swashed', cursive;
+}
